@@ -8,9 +8,9 @@ def filter_bab(mors_df: DataFrame) -> DataFrame :
     return mors_df_filtered
 
 # Split MORS into PRS, PTT, and COS dataframes
-def mors_dfs(mors_df: DataFrame) -> dict[str, DataFrame] :
-    assessment_tools = ['PRS - MORS', 'PTT - MORS', 'COS - MORS']
-    mors_dfs = {assessment_tool: [mors_df['assessment_tool'] == assessment_tool] for assessment_tool in assessment_tools}
-    return mors_dfs
+# def mors_dfs(mors_df: DataFrame) -> dict[str, DataFrame] :
+#     assessment_tools = mors_df_filtered["assessment_tool"].unique()
+#     mors_dfs = {assessment_tool: [mors_df['assessment_tool'] == assessment_tool] for assessment_tool in assessment_tools}
+#     return mors_dfs
 
 
