@@ -16,11 +16,11 @@ def filter_bab(mors_df: DataFrame) -> DataFrame :
     return mors_df_filtered
 
 # Split MORS into PRS, PTT, and COS dataframes
-def create_mors_df_dict(mors_df: DataFrame) -> dict[str, DataFrame]:
+def create_mors_df_dict(mors_df_filtered: DataFrame) -> dict[str, DataFrame]:
     '''
     Returns a dictionary of dataframes for each measure in the MORS dataset (PRS, PTT, COS-B, COS-C)
             Parameters:
-                    df (dataframe): MORS dataset
+                    df (dataframe): filtered MORS dataset
 
             Returns:
                     dict (dictionary): dataframes for PRS, PTT, COS-B, COS-C
@@ -28,10 +28,10 @@ def create_mors_df_dict(mors_df: DataFrame) -> dict[str, DataFrame]:
     # Initialise the dictionary
     mors_df_dict = {}
 
-    assessment_tools = mors_df["assessment_tool"].unique()
+    assessment_tools = mors_df_filtered["assessment_tool"].unique()
 
     for tool in assessment_tools:
-        filtered_df = mors_df[mors_df['assessment_tool'] == tool]
+        filtered_df = mors_df_filtered[mors_df_filtered['assessment_tool'] == tool]
         # Update the dictionary:
         mors_df_dict[tool] = filtered_df
 
