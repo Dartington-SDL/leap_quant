@@ -3,11 +3,28 @@ from pandas import DataFrame
 
 # Filter and remove Baby Steps rows from MORS dataset
 def filter_bab(mors_df: DataFrame) -> DataFrame :
+    '''
+    Returns the MORS dataset without Baby Steps rows
+
+            Parameters:
+                    df (dataframe): MORS dataset
+
+            Returns:
+                    df (dataframe): filtered MORS dataset without Baby Steps rows
+    ''' 
     mors_df_filtered = mors_df.loc[mors_df['assessment_tool'] != "BAB - MORS"] 
     return mors_df_filtered
 
 # Split MORS into PRS, PTT, and COS dataframes
 def create_mors_df_dict(mors_df: DataFrame) -> dict[str, DataFrame]:
+    '''
+    Returns a dictionary of dataframes for each measure in the MORS dataset (PRS, PTT, COS-B, COS-C)
+            Parameters:
+                    df (dataframe): MORS dataset
+
+            Returns:
+                    dict (dictionary): dataframes for PRS, PTT, COS-B, COS-C
+    ''' 
     # Initialise the dictionary
     mors_df_dict = {}
 
