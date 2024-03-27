@@ -13,6 +13,7 @@ pandas_dtype_map = {
 # Dictionary of column name and datatype for MORS
 column_datatype_dict = {
     'leap_user_key': pandas_dtype_map['INT'],
+    # Convert to date object
     'assessment_date': pandas_dtype_map['DATETIME'],
     'assessment_tool': pandas_dtype_map['CATEGORY'],
     'event': pandas_dtype_map['CATEGORY'],
@@ -35,14 +36,17 @@ column_datatype_dict = {
     'bab_total_dosage': pandas_dtype_map['INT'],
     # Change 0 and 1 to True/False 
     'bab_reached_dosage_yn': pandas_dtype_map['BOOL'], 
+    # Convert to date object
     'bab_date_reached_dosage': pandas_dtype_map['DATETIME'],
     'ptt_total_dosage': pandas_dtype_map['INT'],
      # Change 0 and 1 to True/False 
     'ptt_reached_dosage_yn': pandas_dtype_map['BOOL'], 
+    # Convert to date object
     'ptt_date_reached_dosage': pandas_dtype_map['DATETIME'],
     'cos_total_dosage': pandas_dtype_map['INT'],
      # Change 0 and 1 to True/False 
     'cos_reached_dosage_yn': pandas_dtype_map['BOOL'], 
+    # Convert to date object
     'cos_date_reached_dosage': pandas_dtype_map['DATETIME'],
     'warmth_total': pandas_dtype_map['INT'],
     'invasion_total': pandas_dtype_map['INT'],
