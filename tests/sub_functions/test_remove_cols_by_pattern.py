@@ -11,6 +11,13 @@ def remove_cols_by_pattern(df):
         Returns: 
             df (dataframe): Dataframe without question response columns
     '''
+    # Create copy of original df to avoid potential bugs
+    copied_df = pd.DataFrame.copy(df)
+    df_without_question_cols = copied_df[copied_df.columns.drop(list(copied_df.filter(regex='question_')))]
+
+    return df_without_question_cols
+
+
 
 def test_drops_correct_cols():
     # arrange
@@ -36,6 +43,6 @@ def test_drops_correct_cols():
     })
     
 
-    assert pd.testing.assert_frame_equal(new_df, expected_df)
+    pd.testing.assert_frame_equal(new_df, expected_df)
 
 
