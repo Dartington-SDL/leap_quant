@@ -1,12 +1,14 @@
 # Remove individual quesrtion response columns from the aggregated dataframes 
 import pandas as pd 
 
-def remove_cols_by_pattern(df):
+def remove_cols_by_pattern(df, pattern):
     '''
     Returns dataframe without question response columns 
 
         Parameters:
             df (dataframe): Dataframe with aggragated scores
+
+            pattern (string): Pattern of column name to be removed    
 
         Returns: 
             df (dataframe): Dataframe without question response columns
@@ -32,7 +34,8 @@ def test_drops_correct_cols():
     })
 
     # act
-    new_df = remove_cols_by_pattern(raw_df)
+    new_df = remove_cols_by_pattern(raw_df, 'question_')
+    
 
     # assert
     expected_df = pd.DataFrame({
