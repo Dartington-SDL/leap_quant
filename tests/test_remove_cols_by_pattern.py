@@ -1,5 +1,6 @@
 import pandas as pd
 from ..sub_func_remove_cols_by_pattern import remove_cols_by_pattern
+from ..helper_functions import reduce_df_dict_by_pattern
 
 def test_drops_correct_cols():
     # arrange
@@ -27,5 +28,35 @@ def test_drops_correct_cols():
     
 
     pd.testing.assert_frame_equal(new_df, expected_df)
+
+
+def test_reduce_df_remove_cols():
+        raw_df_1 = pd.DataFrame({
+    'id': ["1", "2",],
+    'question_1': [4, 1] 
+        })
+
+        raw_df_2 = pd.DataFrame({
+    'id': ["3", "4",],
+    'question_1': [8, 2] 
+        })
+
+        processed_df_1 =  pd.DataFrame({
+    'id': ["1", "2",],
+        })
+
+        processed_df_2 =  pd.DataFrame({
+    'id': ["3", "4",],
+        })
+
+
+        my_df_dict = {"df_1": raw_df_1, "df_2": raw_df_2}
+        expected_df_dict = {"df_1": processed_df_1, "df_2": processed_df_2}
+
+        processed_dict = reduce_df_dict_by_pattern(my_df_dict, remove_cols_by_pattern, "question_")
+
+
+        pd.testing.assert_frame_equal(processed_dict["df_1"], expected_df_dict["df_1"])
+        pd.testing.assert_frame_equal(processed_dict["df_2"], expected_df_dict["df_2"])
 
 
