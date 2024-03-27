@@ -1,5 +1,5 @@
 from datetime import datetime
-from helper_functions import parse_mors_datestring
+from ..helper_functions import parse_mors_datestring
 def test_string_to_date():
     # arrange
     datestring = "01jun2019"
