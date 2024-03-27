@@ -33,4 +33,4 @@ mors_df_filtered = filter_bab(mors_df)
 mors_df_dict = create_mors_df_dict(mors_df_filtered)
 
 # Remove columns with column names of pattern "question_"
-reduced_mors_df = reduce_df_dict(mors_df_dict, remove_cols_by_pattern(pattern="question_"))
+mors_df_dict_no_questions = reduce_df_dict(mors_df_dict, remove_cols_by_pattern, "question_")
