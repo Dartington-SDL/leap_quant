@@ -15,7 +15,7 @@ def remove_cols_by_pattern(df, pattern):
     '''
     # Create copy of original df to avoid potential bugs
     copied_df = pd.DataFrame.copy(df)
-    df_without_question_cols = copied_df[copied_df.columns.drop(list(copied_df.filter(regex='question_')))]
+    df_without_question_cols = copied_df[copied_df.columns.drop(list(copied_df.filter(regex=pattern)))]
 
     return df_without_question_cols
 
