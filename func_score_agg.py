@@ -1,6 +1,6 @@
 # Run individualised score aggregation and inversion functions
 from typing import Dict
-from pandas import pd
+import pandas as pd
 # Import the user defined functions
 from subfunctions.sub_func_core10_agg import core10_agg
 from subfunctions.sub_func_mors_agg import mors_agg
