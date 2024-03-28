@@ -31,5 +31,8 @@ def reduce_df_dict(df_dict, function):
 # Helper function to convert string into date object
 # Example: "07nov2019"
 def parse_mors_datestring(datestring) -> date:
-    date_object = datetime.strptime(datestring, "%d%b%Y")
-    return date_object   
+    if type(datestring) == str:
+        date_object = datetime.strptime(str(datestring), "%d%b%Y")
+        return date_object
+    else:
+        pass

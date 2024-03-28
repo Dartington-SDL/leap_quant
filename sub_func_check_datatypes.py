@@ -8,6 +8,6 @@ def check_datatypes(df: pd.DataFrame, column_datatype_dict: Dict[str, Any]):
 
     dtypes = copied_df.dtypes.to_dict()
 
-#    
+  
 
 
