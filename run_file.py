@@ -6,6 +6,9 @@ from func_read_data import read_data
 from func_score_agg import score_agg
 from func_mors_dfs import filter_bab
 from func_mors_dfs import create_mors_df_dict
+from sub_func_remove_cols_by_pattern import remove_cols_by_pattern
+from helper_functions import reduce_df_dict
+import functools
 
 # File path and names. Names are used as keys in the data_dict
 path = '~/Library/CloudStorage/OneDrive-SharedLibraries-WarrenHouseGroup/LEAP - Documents/30 Project Specific/SUMMATIVE/quant_analysis/working_data/'
@@ -30,3 +33,6 @@ mors_df_filtered = filter_bab(mors_df)
 
 # Separate MORS into dataframes based on assessment tool 
 mors_df_dict = create_mors_df_dict(mors_df_filtered)
+
+# Remove columns with column names of pattern "question_"
+mors_df_dict_no_questions = reduce_df_dict(mors_df_dict, functools.partial(remove_cols_by_pattern, pattern="question_"))

@@ -13,7 +13,7 @@ def swemwebs_agg(df):
             Returns:
                     df (dataframe): The updated swemwebs measure dataframe
     '''
-    con_df = pd.read_csv('~/Library/CloudStorage/OneDrive-SharedLibraries-WarrenHouseGroup/LEAP - Documents/30 Project Specific/SUMMATIVE/quant_analysis/working_data/swemwebs_conversion.csv')
+    con_df = pd.read_csv('/Users/ellengoddard/Desktop/working_data/swemwebs_conversion.csv')
     df['total_raw'] = df.iloc[:,4:11].sum(axis=1)
     df_merged = df.merge(con_df, left_on='total_raw', right_on='raw')[['metric']]
     df['total'] = df_merged.iloc[:,0]
