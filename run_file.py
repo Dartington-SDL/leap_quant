@@ -35,15 +35,18 @@ mors_df_filtered = filter_bab(mors_df)
 # Separate MORS into dataframes based on assessment tool 
 mors_df_dict = create_mors_df_dict(mors_df_filtered)
 
+# Combine the original data_dict with the mors_df_dict
+combined_data_dict = {**data_dict, **mors_df_dict}
+
 # Remove columns with column names of pattern "question_"
-mors_df_dict_no_questions = reduce_df_dict(mors_df_dict, partial(remove_cols_by_pattern, pattern="question_"))
+combined_dict_no_questions = reduce_df_dict(combined_data_dict, partial(remove_cols_by_pattern, pattern="question_"))
 
 # Parse all datestrings into datetime64
 column_names = ["assessment_date", "ptt_date_reached_dosage", "cos_date_reached_dosage", "bab_date_reached_dosage"]
 partial_transform_column_vals: callable = partial(transform_column_values, column_names=column_names, function=parse_mors_datestring)
-mors_df_dict_parsed_dates = reduce_df_dict(mors_df_dict_no_questions, partial_transform_column_vals)
+combined_dict_parsed_dates = reduce_df_dict(combined_dict_no_questions, partial_transform_column_vals)
 
 # Parse 0 and 1s into booleans
 column_names = ["bab_reached_dosage_yn", "ptt_reached_dosage_yn", "cos_reached_dosage_yn", "bab_reached_dosage_yn"]
 partial_transform_column_vals_bool_parse: callable = partial(transform_column_values, column_names=column_names, function=parse_mors_datestring)
-df_dict_parsed_bools = reduce_df_dict(mors_df_dict_no_questions, partial_transform_column_vals_bool_parse)
+combined_dict_parsed_bools = reduce_df_dict(combined_dict_parsed_dates, partial_transform_column_vals_bool_parse)
