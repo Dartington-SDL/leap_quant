@@ -1,5 +1,5 @@
 import pandas as pd
-from ..sub_func_remove_cols_by_pattern import remove_cols_by_pattern
+from ..subfunctions.sub_func_remove_cols_by_pattern import remove_cols_by_pattern
 from ..helper_functions import reduce_df_dict
 import functools
 def test_drops_correct_cols():

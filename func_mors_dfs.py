@@ -1,7 +1,7 @@
 from pandas import DataFrame
 
 # Filter and remove Baby Steps rows from MORS dataset
-def filter_bab(mors_df: DataFrame) -> DataFrame :
+def filter_bab(mors_df: DataFrame) -> DataFrame:
     '''
     Returns the MORS dataset without Baby Steps rows
 
