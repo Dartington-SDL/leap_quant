@@ -31,17 +31,34 @@ def reduce_df_dict(df_dict: Dict[str, pd.DataFrame], function: Callable[[pd.Data
 
     return transformed_dict
 
-# Helper function to convert string into date object
-# Example: "07nov2019"
+
 def parse_mors_datestring(datestring: str) -> date:
-    if isinstance(datestring, str):
-        date_object = datetime.strptime(str(datestring), "%d%b%Y")
-        return date_object
-    else:
-        pass
+        """
+    Helper function to convert a date string in the format "07nov2019" into a date object.
+
+    Parameters:
+        datestring (str): The date string to convert, expected to be in the format "%d%b%Y".
+
+    Returns:
+        date: A date object corresponding to the date string provided.
+    """
+        if isinstance(datestring, str):
+            date_object = datetime.strptime(str(datestring), "%d%b%Y")
+            return date_object
+        else:
+            pass
 
 
-def parse_binary_to_boolean(integer: (str | float | int)) -> bool:
+def parse_binary_to_boolean(integer: str | float | int) -> bool:
+    """
+    Converts a given input (string, float, or integer) representing a binary value into a boolean.
+
+    Parameters:
+        integer (str | float | int): The input value to convert into a boolean. Expected to represent binary (0 or 1).
+
+    Returns:
+        bool: The boolean representation of the input. Returns True for non-zero values, False otherwise.
+    """
     float_cast = float(integer)
     boolean = bool(float_cast)
-    return boolean 
+    return boolean
