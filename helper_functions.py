@@ -1,4 +1,7 @@
+from datetime import datetime
 from datetime import date
+
+# Helper function to iterate over dictionary of DataFrames
 def reduce_df_dict(df_dict, function):
     '''
     Iterates over a dictionary of DataFrames, applying a given function to each
@@ -25,6 +28,8 @@ def reduce_df_dict(df_dict, function):
 
     return transformed_dict
 
+# Helper function to convert string into date object
+# Example: "07nov2019"
 def parse_mors_datestring(datestring) -> date:
-    pass
-    # date.strftime(%)
+    date_object = datetime.strptime(datestring, "%d%b%Y")
+    return date_object   
