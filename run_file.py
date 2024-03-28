@@ -45,4 +45,4 @@ partial_transform_column_vals: callable = functools.partial(transform_column_val
 mors_df_dict_parsed_dates = reduce_df_dict(mors_df_dict_no_questions, partial_transform_column_vals)
 
 # Parse 0 and 1s into booleans
-column_names = [""]
+column_names = ["bab_reached_dosage_yn", "ptt_reached_dosage_yn", "cos_reached_dosage_yn", "bab_reached_dosage_yn"]
