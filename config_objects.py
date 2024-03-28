@@ -1,16 +1,17 @@
-# MORS columns datatype map
+from typing import Dict
 
-pandas_dtype_map = {
+# MORS columns datatype map
+pandas_dtype_map: Dict[str, str] = {  # Directly using str annotations since these are interpreted by pandas
     "OBJECT": "object",
     "INT": "int64",
     "FLOAT": "float64",
     "BOOL": "bool",
-    "DATETIME": "datetime64",
+    "DATETIME": "datetime64[ns]",
     "TIMEDELTA": "timedelta64[ns]",
     "CATEGORY": "category"
 }
 
-# Dictionary of column name and datatype for MORS
+# Dictionary of column name and datatype for each DF
 column_datatype_dict = {
     'leap_user_key': pandas_dtype_map['INT'],
     # Convert to date object
