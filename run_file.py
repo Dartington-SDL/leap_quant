@@ -10,7 +10,7 @@ from func_score_agg import score_agg
 from helper_functions import parse_mors_datestring, reduce_df_dict, parse_binary_to_boolean
 from subfunctions.sub_func_remove_cols_by_pattern import remove_cols_by_pattern
 from subfunctions.sub_func_transform_column_values import transform_column_values
-
+import itertools
 # File path and names. Names are used as keys in the data_dict
 path = '/Users/ellengoddard/Desktop/working_data/'
 f_names = ['core_10_table', 'mors_table', 'pai_table_v2',
@@ -50,3 +50,5 @@ combined_dict_parsed_dates = reduce_df_dict(combined_dict_no_questions, partial_
 column_names = ["bab_reached_dosage_yn", "ptt_reached_dosage_yn", "cos_reached_dosage_yn", "bab_reached_dosage_yn"]
 partial_transform_column_vals_bool_parse = partial(transform_column_values, column_names=column_names, function=parse_binary_to_boolean)
 combined_dict_parsed_bools = reduce_df_dict(combined_dict_parsed_dates, partial_transform_column_vals_bool_parse)
+
+print(f"Processed DataFrames: {combined_dict_parsed_bools.keys()}")

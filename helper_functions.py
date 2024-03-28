@@ -27,12 +27,12 @@ def reduce_df_dict(df_dict: Dict[str, pd.DataFrame], function: Callable[[pd.Data
         # print(f"\nApplying {function.func.__name__} to DataFrame '{key}':")
         # df.info()
         # Apply the function and update the transformed_dict
-        transformed_dict[key] = function(df, **{'name': key})
+        transformed_dict[key] = function(df)
 
     return transformed_dict
 
 
-def parse_mors_datestring(datestring: str, **kwargs) -> date:
+def parse_mors_datestring(datestring: str) -> date:
         """
     Helper function to convert a date string in the format "07nov2019" into a date object.
 

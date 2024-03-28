@@ -3,7 +3,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-def transform_column_values(df: pd.DataFrame, column_names: list[str], function: callable, **kwargs) -> pd.DataFrame :
+def transform_column_values(df: pd.DataFrame, column_names: list[str], function: callable) -> pd.DataFrame :
 
     copied_df = pd.DataFrame.copy(df)
     for column_name in column_names:
