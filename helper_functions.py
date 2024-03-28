@@ -1,8 +1,11 @@
-from datetime import datetime
-from datetime import date
+from datetime import date, datetime
+from typing import Callable, Dict
+
+import pandas as pd
+
 
 # Helper function to iterate over dictionary of DataFrames
-def reduce_df_dict(df_dict, function):
+def reduce_df_dict(df_dict: Dict[str, pd.DataFrame], function: Callable[[pd.DataFrame], pd.DataFrame]) -> Dict[str, pd.DataFrame]:
     '''
     Iterates over a dictionary of DataFrames, applying a given function to each
     DataFrame.
@@ -30,7 +33,7 @@ def reduce_df_dict(df_dict, function):
 
 # Helper function to convert string into date object
 # Example: "07nov2019"
-def parse_mors_datestring(datestring) -> date:
+def parse_mors_datestring(datestring: str) -> date:
     if isinstance(datestring, str):
         date_object = datetime.strptime(str(datestring), "%d%b%Y")
         return date_object
@@ -38,7 +41,7 @@ def parse_mors_datestring(datestring) -> date:
         pass
 
 
-def parse_binary_to_boolean(integer) -> bool:
+def parse_binary_to_boolean(integer: (str | float | int)) -> bool:
     float_cast = float(integer)
     boolean = bool(float_cast)
     return boolean 
