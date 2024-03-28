@@ -1,7 +1,7 @@
 # Remove individual quesrtion response columns from the aggregated dataframes 
 import pandas as pd 
 
-def remove_cols_by_pattern(df: pd.DataFrame, pattern: str):
+def remove_cols_by_pattern(df: pd.DataFrame, pattern: str, **kwargs):
     '''
     Returns dataframe without question response columns 
 
