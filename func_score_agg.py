@@ -1,11 +1,11 @@
 # Run individualised score aggregation and inversion functions
 
 # Import the user defined functions
-from sub_func_core10_agg import core10_agg
-from sub_func_mors_agg import mors_agg
-from sub_func_pai_agg import pai_agg
-from sub_func_swemwebs_agg import swemwebs_agg
-from sub_func_whooley_agg import whooley_agg
+from subfunctions.sub_func_core10_agg import core10_agg
+from subfunctions.sub_func_mors_agg import mors_agg
+from subfunctions.sub_func_pai_agg import pai_agg
+from subfunctions.sub_func_swemwebs_agg import swemwebs_agg
+from subfunctions.sub_func_whooley_agg import whooley_agg
 
 def score_agg(data_dict, f_names):
     '''
