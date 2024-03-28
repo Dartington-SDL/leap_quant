@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-def swemwebs_agg(df):
+def swemwebs_agg(df: pd.DataFrame):
     '''
     Returns the updated dataframe for the swemwebs measure with total raw score and metric total score
     The metric total score is determined from the data frame imported from swemwebs_conversion.csv

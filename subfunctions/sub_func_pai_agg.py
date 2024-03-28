@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-def pai_agg(df):
+def pai_agg(df: pd.DataFrame):
     '''
     Returns the updated dataframe for the PAI measure with the total score
 
