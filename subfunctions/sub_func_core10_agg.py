@@ -1,7 +1,7 @@
 # Aggregate Core-10 score and add to total column
 import pandas as pd
 
-def core10_agg(df):
+def core10_agg(df: pd.DataFrame):
     '''
     Returns the updated dataframe for the core-10 measure with total score and inverted total score
 
