@@ -8,8 +8,8 @@ from func_mors_dfs import create_mors_df_dict, filter_bab
 from func_read_data import read_data
 from func_score_agg import score_agg
 from helper_functions import parse_mors_datestring, reduce_df_dict
-from sub_func_remove_cols_by_pattern import remove_cols_by_pattern
-from sub_func_transform_column_values import transform_column_values
+from subfunctions.sub_func_remove_cols_by_pattern import remove_cols_by_pattern
+from subfunctions.sub_func_transform_column_values import transform_column_values
 
 # File path and names. Names are used as keys in the data_dict
 path = '~/Library/CloudStorage/OneDrive-SharedLibraries-WarrenHouseGroup/LEAP - Documents/30 Project Specific/SUMMATIVE/quant_analysis/working_data/'

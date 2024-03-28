@@ -1,4 +1,3 @@
-import pandas as pd
 from pandas import DataFrame
 
 # Filter and remove Baby Steps rows from MORS dataset

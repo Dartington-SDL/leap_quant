@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-def whooley_agg(df):
+def whooley_agg(df: pd.DataFrame):
     '''
     Returns the updated dataframe for the whooley measure with total score and inverted total score
 
