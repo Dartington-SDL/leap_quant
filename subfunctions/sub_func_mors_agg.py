@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-def mors_agg(df):
+def mors_agg(df: pd.DataFrame):
     '''
     Returns the updated dataframe for the MORS measure with warmth and invasion total scores,
     inverted invasion total score and an overall total score (warmth + inverted invasion)
