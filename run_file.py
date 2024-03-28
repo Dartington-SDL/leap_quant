@@ -10,7 +10,7 @@ from sub_func_remove_cols_by_pattern import remove_cols_by_pattern
 from helper_functions import parse_mors_datestring
 from sub_func_transform_column_values import transform_column_values
 from helper_functions import reduce_df_dict
-import functools
+from functools import partial
 
 # File path and names. Names are used as keys in the data_dict
 path = '~/Library/CloudStorage/OneDrive-SharedLibraries-WarrenHouseGroup/LEAP - Documents/30 Project Specific/SUMMATIVE/quant_analysis/working_data/'
@@ -37,14 +37,14 @@ mors_df_filtered = filter_bab(mors_df)
 mors_df_dict = create_mors_df_dict(mors_df_filtered)
 
 # Remove columns with column names of pattern "question_"
-mors_df_dict_no_questions = reduce_df_dict(mors_df_dict, functools.partial(remove_cols_by_pattern, pattern="question_"))
+mors_df_dict_no_questions = reduce_df_dict(mors_df_dict, partial(remove_cols_by_pattern, pattern="question_"))
 
 # Parse all datestrings into datetime64
 column_names = ["assessment_date", "ptt_date_reached_dosage", "cos_date_reached_dosage", "bab_date_reached_dosage"]
-partial_transform_column_vals: callable = functools.partial(transform_column_values, column_names=column_names, function=parse_mors_datestring)
+partial_transform_column_vals: callable = partial(transform_column_values, column_names=column_names, function=parse_mors_datestring)
 mors_df_dict_parsed_dates = reduce_df_dict(mors_df_dict_no_questions, partial_transform_column_vals)
 
 # Parse 0 and 1s into booleans
 column_names = ["bab_reached_dosage_yn", "ptt_reached_dosage_yn", "cos_reached_dosage_yn", "bab_reached_dosage_yn"]
-partial_transform_column_vals_bool_parse: callable = functools.partial(transform_column_values, column_names=column_names, function=parse_mors_datestring)
+partial_transform_column_vals_bool_parse: callable = partial(transform_column_values, column_names=column_names, function=parse_mors_datestring)
 df_dict_parsed_bools = reduce_df_dict(mors_df_dict_no_questions, partial_transform_column_vals_bool_parse)
