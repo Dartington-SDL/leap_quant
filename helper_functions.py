@@ -36,3 +36,13 @@ def parse_mors_datestring(datestring) -> date:
         return date_object
     else:
         pass
+
+
+def parse_binary_to_boolean(integer) -> bool:
+    if integer != (0 or 1):
+        return ValueError  
+    if type(integer) == int:
+        boolean = bool(integer)
+        return boolean 
+    else:
+        pass
