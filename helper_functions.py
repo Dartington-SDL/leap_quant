@@ -18,21 +18,21 @@ def reduce_df_dict(df_dict: Dict[str, pd.DataFrame], function: Callable[[pd.Data
         dict: A dictionary with the same keys as `df_dict` but with the values being the transformed
               DataFrames.
     '''
-    dict_keys = df_dict.keys()
-    dict_values = df_dict.values()
+    # Initialize an empty dictionary for transformed DataFrames
+    transformed_dict = {}
 
-    # Create empty list to put dataframes into
-    transformed_values = []
 
-    for value in dict_values:
-        transformed_values.append(function(value))
-
-    transformed_dict = dict(zip(dict_keys, transformed_values))
+    for key, df in df_dict.items():
+        # print("---")
+        # print(f"\nApplying {function.func.__name__} to DataFrame '{key}':")
+        # df.info()
+        # Apply the function and update the transformed_dict
+        transformed_dict[key] = function(df, **{'name': key})
 
     return transformed_dict
 
 
-def parse_mors_datestring(datestring: str) -> date:
+def parse_mors_datestring(datestring: str, **kwargs) -> date:
         """
     Helper function to convert a date string in the format "07nov2019" into a date object.
 
@@ -49,16 +49,21 @@ def parse_mors_datestring(datestring: str) -> date:
             pass
 
 
-def parse_binary_to_boolean(integer: str | float | int) -> bool:
-    """
-    Converts a given input (string, float, or integer) representing a binary value into a boolean.
+def parse_binary_to_boolean(value) -> bool | None:
+    # Handle None or NaN values by directly returning None or a default value
+    if pd.isnull(value):
+        return None
+    try:
+        float_cast = float(value)
+        return bool(float_cast)
+    except ValueError:
+        # Handle the case where conversion fails
+        return None
 
-    Parameters:
-        integer (str | float | int): The input value to convert into a boolean. Expected to represent binary (0 or 1).
 
-    Returns:
-        bool: The boolean representation of the input. Returns True for non-zero values, False otherwise.
-    """
-    float_cast = float(integer)
-    boolean = bool(float_cast)
-    return boolean
+def map_dataframe_dtypes(df: pd.DataFrame, dtype_map: Dict[str, str]):
+     df_copy = df.copy()
+     df_copy.astype(dtype_map)
+
+     return df_copy
+          
