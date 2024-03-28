@@ -1,3 +1,6 @@
 __pycache__
 .DS_Store
 notebooks
+.ruff_cache
+.pytest_cache
+.ipynb_checkpoints
