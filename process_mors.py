@@ -9,6 +9,7 @@ from helper_functions import (
     parse_float_to_int,
     parse_mors_datestring,
     reduce_df_dict,
+    replace_negative_values_with_nan,
 )
 from subfunctions.sub_func_remove_cols_by_pattern import remove_cols_by_pattern
 from subfunctions.sub_func_transform_column_values import transform_column_values
@@ -107,4 +108,12 @@ def process_mors(mors_df_dict: pd.DataFrame) -> dict:
         mors_dict_categoricals, partial_column_parse_int
     )
 
-    return mors_dict_parsed_floats
+    # Replace negative ages in registration with NaN
+    partial_replace_negatives = partial(
+        replace_negative_values_with_nan, column_names=["age_at_registration"]
+    )
+    mors_dict_removed_negatives = reduce_df_dict(
+        mors_dict_parsed_floats, partial_replace_negatives
+    )
+
+    return mors_dict_removed_negatives
