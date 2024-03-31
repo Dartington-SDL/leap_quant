@@ -3,15 +3,17 @@
 
 # Import the user defined functions
 from functools import partial
-from config_objects import pandas_dtype_map
+
 import pandas as pd
 
+from config_objects import pandas_dtype_map
 from helper_functions import (
+    categorise_columns,
+    drop_columns,
+    map_dataframe_dtypes,
     parse_binary_to_boolean,
     parse_mors_datestring,
     reduce_df_dict,
-    categorise_columns,
-    drop_columns
 )
 from subfunctions.sub_func_remove_cols_by_pattern import remove_cols_by_pattern
 from subfunctions.sub_func_transform_column_values import transform_column_values
@@ -45,6 +47,18 @@ def process_mors(mors_df_dict: pd.DataFrame) -> dict:
     partial_column_cat_changer = partial(categorise_columns, column_names=category_cols)
     mors_dict_categoricals = reduce_df_dict(mors_dict_parsed_bools, partial_column_cat_changer)
 
-    return mors_dict_categoricals
+    # Change column datatype from float to integer 
+    integer_cols = {"age_at_registration": pandas_dtype_map["INT"], 
+                    "warmth_total": pandas_dtype_map["INT"],
+                      "invasion_total": pandas_dtype_map["INT"],
+                        "invasion_final": pandas_dtype_map["INT"],
+                          "warmth_final": pandas_dtype_map["INT"],
+                            "total_final": pandas_dtype_map["INT"]}
+    partial_column_parse_int = partial(map_dataframe_dtypes, dtype_map=integer_cols)
+    mors_dict_parsed_floats = reduce_df_dict(mors_dict_categoricals, partial_column_parse_int)
+
+    return mors_dict_parsed_floats
+
+
 
 
