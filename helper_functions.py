@@ -1,5 +1,6 @@
 from datetime import date, datetime
 from typing import Callable, Dict, List
+import numpy as np
 
 import pandas as pd
 
@@ -102,3 +103,11 @@ def drop_columns(df: pd.DataFrame, column_names: List[str]) -> pd.DataFrame:
     df_copy.drop(column_names, axis=1)
 
     return df_copy
+
+
+def replace_negative_values_with_nan(df, column_names):
+    """Replace negative values in specified columns of a DataFrame with NaN."""
+    for col in column_names:
+        if col in df.columns:
+            df[col] = df[col].apply(lambda x: np.nan if x < 0 else x)
+    return df
