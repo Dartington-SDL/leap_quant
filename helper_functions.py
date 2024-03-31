@@ -1,5 +1,5 @@
 from datetime import date, datetime
-from typing import Callable, Dict
+from typing import Callable, Dict, List
 
 import pandas as pd
 
@@ -64,6 +64,15 @@ def parse_binary_to_boolean(value) -> bool | None:
 def map_dataframe_dtypes(df: pd.DataFrame, dtype_map: Dict[str, str]):
      df_copy = df.copy()
      df_copy.astype(dtype_map)
+
+     return df_copy
+          
+
+def categorise_columns(df: pd.DataFrame, column_names: List[str]):
+     df_copy = df.copy()
+     
+     for column_name in column_names:
+          df_copy[column_name] =  pd.Categorical(df_copy[column_name])
 
      return df_copy
           

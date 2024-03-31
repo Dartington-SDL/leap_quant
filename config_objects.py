@@ -12,6 +12,8 @@ pandas_dtype_map: Dict[str, str] = {  # Directly using str annotations since the
 }
 
 # Dictionary of column name and datatype for each DF
+
+# MORS DFs 
 column_datatype_dict = {
     'leap_user_key': pandas_dtype_map['INT'],
     # Convert to date object
@@ -55,3 +57,7 @@ column_datatype_dict = {
     'warmth_final': pandas_dtype_map['INT'],
     'total_final': pandas_dtype_map['INT'],
 }
+
+
+# CORE_10
+
