@@ -10,7 +10,8 @@ from helper_functions import (
     parse_binary_to_boolean,
     parse_mors_datestring,
     reduce_df_dict,
-    categorise_columns
+    categorise_columns,
+    drop_columns
 )
 from subfunctions.sub_func_remove_cols_by_pattern import remove_cols_by_pattern
 from subfunctions.sub_func_transform_column_values import transform_column_values
@@ -18,6 +19,14 @@ from subfunctions.sub_func_transform_column_values import transform_column_value
 
 def process_mors(mors_df_dict: pd.DataFrame) -> dict:
     mors_df_dict_copy = mors_df_dict.copy()
+
+
+    # NB. MORS dataset does not have dosage columns for PRS (only PTT)
+    mors_df_dict_copy["PRS - MORS"] = drop_columns(mors_df_dict_copy["PRS - MORS"], ["bab_total_dosage", "bab_reached_dosage_yn", "bab_date_reached_dosage", "cos_total_dosage", "cos_reached_dosage_yn", "cos_date_reached_dosage"])
+    mors_df_dict_copy["PTT - MORS"] = drop_columns(mors_df_dict_copy["PRS - MORS"], ["bab_total_dosage", "bab_reached_dosage_yn", "bab_date_reached_dosage", "cos_total_dosage", "cos_reached_dosage_yn", "cos_date_reached_dosage"])
+    mors_df_dict_copy["COS - MORSB"] = drop_columns(mors_df_dict_copy["bab_total_dosage", "bab_reached_dosage_yn", "bab_date_reached_dosage", "ptt_total_dosage", "ptt_reached_dosage_yn", "ptt_date_reached_dosage"])
+    mors_df_dict_copy["COS - MORSC"] = drop_columns(mors_df_dict_copy["bab_total_dosage", "bab_reached_dosage_yn", "bab_date_reached_dosage", "ptt_total_dosage", "ptt_reached_dosage_yn", "ptt_date_reached_dosage"])
+
     # Remove columns with column names of pattern "question_"
     mors_dict_no_questions = reduce_df_dict(mors_df_dict_copy, partial(remove_cols_by_pattern, pattern="question_"))
 

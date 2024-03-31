@@ -75,4 +75,13 @@ def categorise_columns(df: pd.DataFrame, column_names: List[str]):
           df_copy[column_name] =  pd.Categorical(df_copy[column_name])
 
      return df_copy
+
+def drop_columns(df: pd.DataFrame, column_names: List[str]) -> pd.DataFrame:
+    df_copy = df.copy()
+
+    df_copy.drop(column_names)
+
+    return df_copy
+
+     
           
