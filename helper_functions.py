@@ -81,11 +81,9 @@ def parse_float_to_int(value) -> int | None:
         return None
 
 
-def map_dataframe_dtypes(df: pd.DataFrame, dtype_map: Dict[str, str]):
+def map_dataframe_dtypes(df: pd.DataFrame, dtype_map: Dict[str, str]) -> pd.DataFrame:
     df_copy = df.copy()
-    df_copy.astype(dtype_map)
-
-    return df_copy
+    return df_copy.astype(dtype_map)
 
 
 def categorise_columns(df: pd.DataFrame, column_names: List[str]):
