@@ -99,10 +99,7 @@ def categorise_columns(df: pd.DataFrame, column_names: List[str]):
 
 def drop_columns(df: pd.DataFrame, column_names: List[str]) -> pd.DataFrame:
     df_copy = df.copy()
-
-    df_copy.drop(column_names, axis=1)
-
-    return df_copy
+    return df_copy.drop(column_names, axis=1, errors="ignore")
 
 
 def replace_negative_values_with_nan(df, column_names):
