@@ -18,6 +18,7 @@ from subfunctions.sub_func_transform_column_values import transform_column_value
 def process_mors(mors_df_dict: pd.DataFrame) -> dict:
     mors_df_dict_copy = mors_df_dict.copy()
 
+    # Drop unnecessary dosage columns 
     # NB. MORS dataset does not have dosage columns for PRS (only PTT)
     mors_df_dict_copy["PRS - MORS"] = drop_columns(
         mors_df_dict_copy["PRS - MORS"],
@@ -36,7 +37,7 @@ def process_mors(mors_df_dict: pd.DataFrame) -> dict:
         ["ptt_total_dosage", "ptt_reached_dosage_yn", "ptt_date_reached_dosage"],
     )
 
-    # Remove columns with column names of pattern "question_"
+    # Remove columns with names of pattern "question_"
     mors_dict_no_questions = reduce_df_dict(
         mors_df_dict_copy, partial(remove_cols_by_pattern, pattern="question_")
     )
