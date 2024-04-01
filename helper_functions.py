@@ -25,7 +25,6 @@ def reduce_df_dict(
     transformed_dict = {}
 
     for key, df in df_dict.items():
- 
         transformed_dict[key] = function(df)
 
     return transformed_dict
@@ -111,7 +110,6 @@ def map_dataframe_dtypes(df: pd.DataFrame, dtype_map: Dict[str, str]) -> pd.Data
 
 
 def categorise_columns(df: pd.DataFrame, column_names: List[str]):
-
     """
     Converts specified columns to categorical type.
 
