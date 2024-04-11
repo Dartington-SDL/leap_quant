@@ -7,9 +7,12 @@ from func_mors_dfs import create_mors_df_dict, filter_bab
 from func_read_data import read_data
 from func_score_agg import score_agg
 from process_mors import process_mors
+import pandas as pd
 
 # File path and names. Names are used as keys in the data_dict
-path = "/Users/ellengoddard/Desktop/working_data/"
+# path = "/Users/ellengoddard/Desktop/working_data/"
+# path = "/Library/CloudStorage/OneDrive-SharedLibraries-WarrenHouseGroup/LEAP - Documents/30 Project Specific/SUMMATIVE/quant_analysis/working_data"
+path = "/Users/seanmanzi/Documents/working_data/"
 f_names = [
     "core_10_table",
     "mors_table",
@@ -24,9 +27,13 @@ na_list = [999, "", "Not applicable", "NULL", "Undefined", "Unknown"]
 # Read in all datasets
 data_dict = read_data(path, f_names, ext, na_list)
 
+# Read in swemwebs conversion table
+con_f_name = path + 'swemwebs_conversion' + ext
+swemwebs_con_df = pd.read_csv(con_f_name)
+
 # Run the sub functions to aggregate the scores for each measure
 # and invert where necessary so a higher score is always better
-data_dict = score_agg(data_dict, f_names)
+data_dict = score_agg(data_dict, f_names, swemwebs_con_df)
 
 # Define MORS dataset
 mors_df = data_dict["mors_table"]
