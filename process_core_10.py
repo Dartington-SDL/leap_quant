@@ -14,7 +14,7 @@ from helper_functions import (
 from subfunctions.sub_func_remove_cols_by_pattern import remove_cols_by_pattern
 from subfunctions.sub_func_transform_column_values import transform_column_values
 
-def process_swemwebs(df_orig: pd.DataFrame) -> dict:
+def process_core_10(df_orig: pd.DataFrame) -> dict:
     df_orig_copy = df_orig.copy()
 
     # Remove columns with names of pattern "question_"
@@ -23,19 +23,10 @@ def process_swemwebs(df_orig: pd.DataFrame) -> dict:
     # Parse all datestrings into datetime64
     column_names = [
         "assessment_date",
-        "bab_date_reached_dosage",
     ]
 
     df_parsed_dates = transform_column_values(df_no_questions, column_names,
                                               parse_mors_datestring)
-
-    # Parse 0 and 1s into booleans
-    column_names = [
-        "bab_reached_dosage_yn",
-    ]
-
-    df_parsed_bools = transform_column_values(df_parsed_dates,column_names,
-                                              parse_binary_to_boolean)
 
     # Change column datatype from object to categorical
     category_cols = [
@@ -52,12 +43,11 @@ def process_swemwebs(df_orig: pd.DataFrame) -> dict:
         "mergestatus",
     ]
 
-    df_categoricals = categorise_columns(df_parsed_bools, column_names)
+    df_categoricals = categorise_columns(df_parsed_dates, column_names)
 
     # Change column datatype from float to integer
     integer_cols = [
         "age_at_registration",
-        "total_raw",
         "total",
         "total_final",
     ]
