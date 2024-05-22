@@ -1,0 +1,372 @@
+,leap_user_key,age_at_registration,ethnicity_b,home_language,lone_parent,ward_name,imd_local_dec,diff_mm_score,pre_mm_score,post_mm_score,measure
+0,464037,24.0,,Spanish,,Penge and Cator,,,,0.8250000000000001,core_10_table
+1,464057,26.0,,,,Penge and Cator,,0.55,0.45,1.0,core_10_table
+2,464111,30.0,,,,Selhurst,,0.42499999999999993,0.5750000000000001,1.0,core_10_table
+3,464102,30.0,,English,,Brixton Hill,7.0,0.2749999999999999,0.7250000000000001,1.0,core_10_table
+4,464118,32.0,"Black",,,Brixton Hill,6.0,0.30000000000000004,0.625,0.925,core_10_table
+5,464060,26.0,"Black",English,,Clapham Town,6.0,0.35,0.65,1.0,core_10_table
+6,464108,31.0,"Black",English,,Coldharbour,6.0,0.1499999999999999,0.8500000000000001,1.0,core_10_table
+7,464056,26.0,"Asian",Bengali,,Coldharbour,1.0,0.17500000000000004,0.525,0.7000000000000001,core_10_table
+8,464177,42.0,,English,,Coldharbour,1.0,0.29999999999999993,0.7000000000000001,1.0,core_10_table
+9,464046,25.0,"Black",English,,Coldharbour,1.0,0.04999999999999993,0.9500000000000001,1.0,core_10_table
+10,464131,33.0,,English,,Coldharbour,2.0,0.10000000000000009,0.875,0.9750000000000001,core_10_table
+11,451246,36.0,"Black",English,,Coldharbour,2.0,0.25000000000000006,0.45,0.7000000000000001,core_10_table
+12,464087,29.0,"White",English,,Coldharbour,1.0,0.17500000000000004,0.675,0.8500000000000001,core_10_table
+13,464051,25.0,"White",English,,Coldharbour,1.0,0.25,0.75,1.0,core_10_table
+14,464122,33.0,"Black",English,,Coldharbour,1.0,0.32500000000000007,0.525,0.8500000000000001,core_10_table
+15,455007,28.0,"White",English,,Coldharbour,1.0,0.29999999999999993,0.7000000000000001,1.0,core_10_table
+16,445476,32.0,"Black",English,,Coldharbour,1.0,0.0,0.8250000000000001,0.8250000000000001,core_10_table
+17,374927,22.0,"White",Other,,Coldharbour,1.0,0.22499999999999998,0.42500000000000004,0.65,core_10_table
+18,464030,23.0,,English,,Coldharbour,1.0,0.275,0.55,0.8250000000000001,core_10_table
+19,464055,25.0,"White",English,,Coldharbour,1.0,0.09999999999999998,0.9,1.0,core_10_table
+20,464083,28.0,"White",English,,Coldharbour,1.0,0.09999999999999998,0.775,0.875,core_10_table
+21,464150,36.0,,,,Coldharbour,1.0,0.0,1.0,1.0,core_10_table
+22,464008,19.0,,English,,Coldharbour,1.0,0.35,0.6000000000000001,0.9500000000000001,core_10_table
+23,464039,24.0,"Black",English,,Coldharbour,5.0,0.32500000000000007,0.625,0.9500000000000001,core_10_table
+24,365593,32.0,"White",English,Yes,Coldharbour,5.0,0.07499999999999996,0.8500000000000001,0.925,core_10_table
+25,464167,39.0,"Black",English,,Coldharbour,5.0,0.17500000000000004,0.8,0.9750000000000001,core_10_table
+26,464090,29.0,,English,,Coldharbour,5.0,0.125,0.65,0.775,core_10_table
+27,464028,22.0,"Black",English,,Coldharbour,2.0,0.22499999999999998,0.5750000000000001,0.8,core_10_table
+28,464040,24.0,"White",English,,Coldharbour,2.0,0.3999999999999999,0.6000000000000001,1.0,core_10_table
+29,400599,37.0,"Black",English,,Coldharbour,2.0,0.22499999999999998,0.65,0.875,core_10_table
+30,464130,34.0,,English,,Coldharbour,2.0,0.17500000000000004,0.75,0.925,core_10_table
+31,464024,22.0,,,,Coldharbour,1.0,0.29999999999999993,0.5750000000000001,0.875,core_10_table
+32,464174,41.0,,Other,,Coldharbour,1.0,0.39999999999999997,0.47500000000000003,0.875,core_10_table
+33,464105,31.0,"White",Albanian/Shqip,,Coldharbour,1.0,0.0,1.0,1.0,core_10_table
+34,461226,31.0,,English,,Coldharbour,1.0,0.30000000000000004,0.55,0.8500000000000001,core_10_table
+35,464036,24.0,"Black",English,,Coldharbour,1.0,0.55,0.45,1.0,core_10_table
+36,464044,25.0,,English,,Herne Hill,4.0,0.19999999999999996,0.8,1.0,core_10_table
+37,464000,17.0,,,,Larkhall,3.0,0.0,1.0,1.0,core_10_table
+38,385911,31.0,"Black",Other,,Larkhall,6.0,0.525,0.375,0.9,core_10_table
+39,386516,31.0,"Black",Other,,Oval,3.0,0.37500000000000006,0.35000000000000003,0.7250000000000001,core_10_table
+40,464161,38.0,"White",Polish,,Oval,3.0,0.22499999999999998,0.775,1.0,core_10_table
+41,464047,25.0,,English,,Oval,6.0,0.3500000000000001,0.5,0.8500000000000001,core_10_table
+42,464176,42.0,"White",,,Oval,5.0,0.55,0.45,1.0,core_10_table
+43,464022,22.0,"White",English,,Stockwell,3.0,,,1.0,core_10_table
+44,464100,30.0,"Black",English,,Stockwell,3.0,0.0,1.0,1.0,core_10_table
+45,464099,30.0,,English,,Stockwell,3.0,0.0,0.65,0.65,core_10_table
+46,464035,23.0,"White",English,,Stockwell,5.0,-0.125,1.0,0.875,core_10_table
+47,464093,30.0,"White",Arabic,,Stockwell,5.0,0.17500000000000004,0.775,0.9500000000000001,core_10_table
+48,464032,23.0,"White",English,,Stockwell,5.0,-0.25,0.775,0.525,core_10_table
+49,464128,33.0,,English,,Stockwell,4.0,0.07500000000000001,0.47500000000000003,0.55,core_10_table
+50,464123,33.0,"White",Albanian/Shqip,,Stockwell,4.0,0.32500000000000007,0.625,0.9500000000000001,core_10_table
+51,464135,34.0,"Asian",English,,Stockwell,4.0,0.37500000000000006,0.47500000000000003,0.8500000000000001,core_10_table
+52,464006,19.0,"White",English,,Stockwell,4.0,0.25,0.625,0.875,core_10_table
+53,464144,36.0,"Black",,,Stockwell,4.0,0.35,0.55,0.9,core_10_table
+54,381432,28.0,"White",Other,,Stockwell,4.0,0.20000000000000007,0.65,0.8500000000000001,core_10_table
+55,464059,26.0,"White",English,,Stockwell,4.0,0.32499999999999996,0.6000000000000001,0.925,core_10_table
+56,381239,28.0,"White",Other,,Stockwell,5.0,0.325,0.47500000000000003,0.8,core_10_table
+57,376996,25.0,"White",Other,,Stockwell,5.0,0.6,0.4,1.0,core_10_table
+58,464166,38.0,"Black",English,,Stockwell,2.0,0.75,0.25,1.0,core_10_table
+59,464114,32.0,"Black",English,,Stockwell,6.0,0.22499999999999998,0.6000000000000001,0.8250000000000001,core_10_table
+60,464078,28.0,"Black",Somali,,Stockwell,6.0,0.3999999999999999,0.6000000000000001,1.0,core_10_table
+61,365455,27.0,"Mixed",English,Yes,Stockwell,6.0,0.07499999999999996,0.8500000000000001,0.925,core_10_table
+62,464034,23.0,"Black",English,,Streatham Hill,6.0,0.25,0.7000000000000001,0.9500000000000001,core_10_table
+63,450043,40.0,"Asian",English,No,Streatham Hill,4.0,0.1499999999999999,0.8500000000000001,1.0,core_10_table
+64,464076,27.0,"Black",English,,Streatham Wells,3.0,0.44999999999999996,0.55,1.0,core_10_table
+65,464137,34.0,,English,,Thurlow Park,7.0,0.5249999999999999,0.47500000000000003,1.0,core_10_table
+66,375873,23.0,"White",Other,,Thurlow Park,9.0,0.675,0.325,1.0,core_10_table
+67,464095,30.0,"Asian",Bengali,,Thurlow Park,1.0,0.625,0.375,1.0,core_10_table
+68,464069,27.0,,English,,Thurlow Park,1.0,-0.025000000000000022,0.8,0.775,core_10_table
+69,464081,28.0,"Black",English,,Thurlow Park,6.0,0.47500000000000003,0.45,0.925,core_10_table
+70,365836,38.0,"Mixed",Italian,,Tulse Hill,5.0,,0.8250000000000001,,core_10_table
+71,464097,30.0,"Black",English,,Tulse Hill,5.0,0.0,1.0,1.0,core_10_table
+72,464116,32.0,"Black",Somali,,Tulse Hill,5.0,0.1499999999999999,0.7250000000000001,0.875,core_10_table
+73,464038,24.0,"White",,,Tulse Hill,3.0,0.625,0.35000000000000003,0.9750000000000001,core_10_table
+74,456897,24.0,"Black",English,,Tulse Hill,3.0,0.525,0.375,0.9,core_10_table
+75,464098,30.0,"Black",English,,Tulse Hill,3.0,0.10000000000000009,0.875,0.9750000000000001,core_10_table
+76,464170,40.0,,Akan/Twi-Fante,,Tulse Hill,3.0,0.575,0.42500000000000004,1.0,core_10_table
+77,464052,25.0,"Black",English,,Tulse Hill,3.0,0.30000000000000004,0.525,0.8250000000000001,core_10_table
+78,464023,22.0,,English,,Tulse Hill,3.0,0.625,0.375,1.0,core_10_table
+79,464151,36.0,"White",,,Tulse Hill,9.0,0.42500000000000004,0.525,0.9500000000000001,core_10_table
+80,365732,36.0,"Black",,,Tulse Hill,2.0,0.55,0.4,0.9500000000000001,core_10_table
+81,464125,32.0,"Black",English,,Tulse Hill,2.0,0.65,0.30000000000000004,0.9500000000000001,core_10_table
+82,455057,30.0,"Asian",English,,Tulse Hill,2.0,0.32500000000000007,0.625,0.9500000000000001,core_10_table
+83,464084,28.0,"White",English,,Tulse Hill,2.0,0.575,0.42500000000000004,1.0,core_10_table
+84,464115,32.0,"Black",English,,Tulse Hill,2.0,0.20000000000000007,0.65,0.8500000000000001,core_10_table
+85,464031,22.0,,English,,Tulse Hill,2.0,0.0,1.0,1.0,core_10_table
+86,463633,,"Black",English,,Tulse Hill,2.0,0.0,1.0,1.0,core_10_table
+87,464134,34.0,"Black",English,,Tulse Hill,2.0,0.5249999999999999,0.47500000000000003,1.0,core_10_table
+88,453052,35.0,"Black",Arabic,,Tulse Hill,2.0,0.55,0.30000000000000004,0.8500000000000001,core_10_table
+89,464066,26.0,"White",English,,Tulse Hill,2.0,0.35,0.65,1.0,core_10_table
+90,464163,38.0,,English,,Tulse Hill,2.0,0.2750000000000001,0.45,0.7250000000000001,core_10_table
+91,464054,25.0,,,,Tulse Hill,2.0,0.20000000000000007,0.625,0.8250000000000001,core_10_table
+92,464073,27.0,"Black",English,,Tulse Hill,2.0,0.35,0.65,1.0,core_10_table
+93,464132,34.0,"Black",,,Tulse Hill,2.0,0.025000000000000022,0.625,0.65,core_10_table
+94,464070,27.0,"White",English,,Tulse Hill,2.0,0.22499999999999998,0.55,0.775,core_10_table
+95,464050,25.0,"White",English,,Tulse Hill,2.0,0.0,1.0,1.0,core_10_table
+96,464096,31.0,"Black",Spanish,,Tulse Hill,2.0,0.32500000000000007,0.65,0.9750000000000001,core_10_table
+97,464088,29.0,,English,,Tulse Hill,2.0,0.375,0.525,0.9,core_10_table
+98,464164,38.0,,English,,Tulse Hill,2.0,0.025000000000000022,0.75,0.775,core_10_table
+99,464065,26.0,"Black",English,,Tulse Hill,5.0,0.6499999999999999,0.35000000000000003,1.0,core_10_table
+100,464157,37.0,,English,Yes,Tulse Hill,5.0,0.575,0.35000000000000003,0.925,core_10_table
+101,373382,19.0,"Black",Other,,Tulse Hill,5.0,0.44999999999999996,0.55,1.0,core_10_table
+102,464110,31.0,"Black",English,,Tulse Hill,7.0,0.29999999999999993,0.7000000000000001,1.0,core_10_table
+103,464175,41.0,"White",Albanian/Shqip,,Tulse Hill,7.0,0.19999999999999996,0.675,0.875,core_10_table
+104,464119,32.0,"Black",English,,Tulse Hill,7.0,0.15000000000000002,0.5,0.65,core_10_table
+105,464106,31.0,"Black",English,,Tulse Hill,3.0,0.07499999999999996,0.8250000000000001,0.9,core_10_table
+106,379621,27.0,"White",Other,,Tulse Hill,3.0,0.20000000000000007,0.4,0.6000000000000001,core_10_table
+107,464109,31.0,"Black",English,,Tulse Hill,3.0,0.35,0.65,1.0,core_10_table
+108,464120,32.0,,English,,Tulse Hill,3.0,0.050000000000000044,0.65,0.7000000000000001,core_10_table
+109,464103,32.0,"Black",French,,Tulse Hill,3.0,0.22499999999999998,0.775,1.0,core_10_table
+110,464147,,,English,,Tulse Hill,3.0,0.17499999999999993,0.7000000000000001,0.875,core_10_table
+111,464104,28.0,"Black",English,,Tulse Hill,3.0,0.275,0.42500000000000004,0.7000000000000001,core_10_table
+112,458404,21.0,"White",English,,Tulse Hill,3.0,0.525,0.4,0.925,core_10_table
+113,464058,26.0,"White",English,,Tulse Hill,3.0,0.29999999999999993,0.7000000000000001,1.0,core_10_table
+114,464141,35.0,,English,No,Tulse Hill,3.0,0.32499999999999996,0.675,1.0,core_10_table
+115,464033,23.0,"White",English,,Vassall,7.0,0.5,0.5,1.0,core_10_table
+116,365930,40.0,"Black",English,,Vassall,7.0,-0.1499999999999999,1.0,0.8500000000000001,core_10_table
+117,456155,27.0,,English,,Vassall,2.0,0.2749999999999999,0.7250000000000001,1.0,core_10_table
+118,464089,29.0,"Black",English,,Vassall,5.0,0.75,0.125,0.875,core_10_table
+119,377264,25.0,"White",Other,,Vassall,5.0,0.42499999999999993,0.5750000000000001,1.0,core_10_table
+120,464094,30.0,,English,,Vassall,5.0,0.45,0.35000000000000003,0.8,core_10_table
+121,386053,31.0,"Asian",Other,,Vassall,4.0,0.10000000000000009,0.625,0.7250000000000001,core_10_table
+122,464086,29.0,,Spanish,,Vassall,4.0,0.32499999999999996,0.675,1.0,core_10_table
+123,464064,26.0,"Black",English,,Vassall,4.0,0.6000000000000001,0.325,0.925,core_10_table
+124,464025,22.0,,English,,Vassall,4.0,0.22499999999999998,0.7000000000000001,0.925,core_10_table
+125,464140,35.0,"Black",,,Vassall,2.0,0.525,0.4,0.925,core_10_table
+126,464117,32.0,"Black",English,,Vassall,2.0,0.125,0.7250000000000001,0.8500000000000001,core_10_table
+127,366003,42.0,"Black",Swahili/Kiswahili,,Vassall,2.0,0.15000000000000002,0.625,0.775,core_10_table
+128,464171,40.0,"Black",English,,Vassall,2.0,0.0,1.0,1.0,core_10_table
+129,398422,36.0,"Black",Other,,Vassall,2.0,0.17499999999999993,0.7000000000000001,0.875,core_10_table
+130,464072,27.0,"Black",English,,Vassall,5.0,0.2749999999999999,0.6000000000000001,0.875,core_10_table
+131,464107,31.0,"Black",English,,Vassall,5.0,0.35,0.65,1.0,core_10_table
+132,464178,44.0,,Other,,Vassall,5.0,0.35,0.525,0.875,core_10_table
+133,464139,34.0,"Black",English,,Vassall,5.0,0.35,0.65,1.0,core_10_table
+134,464007,19.0,"Black",English,,Vassall,8.0,0.3999999999999999,0.6000000000000001,1.0,core_10_table
+135,464082,28.0,"Asian",English,,Vassall,8.0,0.07499999999999996,0.8,0.875,core_10_table
+136,454978,21.0,"Other",English,,Vassall,2.0,0.2,0.47500000000000003,0.675,core_10_table
+137,464049,23.0,,English,,Vassall,2.0,0.22499999999999998,0.775,1.0,core_10_table
+138,464129,34.0,"Black",French,,Vassall,1.0,0.175,0.45,0.625,core_10_table
+139,464053,25.0,,English,,Vassall,1.0,-0.025000000000000022,0.525,0.5,core_10_table
+140,366009,44.0,"White",English,,Bellingham,,,,,core_10_table
+141,464091,29.0,"Black",English,,Brockley,,0.0,1.0,1.0,core_10_table
+142,464079,28.0,,Other,,Perry Vale,,0.35,0.6000000000000001,0.9500000000000001,core_10_table
+143,445487,41.0,"Black",English,,Sydenham,,0.30000000000000004,0.625,0.925,core_10_table
+144,380657,28.0,"Asian",Other,,Peckham Rye,,0.35,0.5750000000000001,0.925,core_10_table
+145,464124,33.0,,English,,South Bermondsey,,0.35,0.525,0.875,core_10_table
+146,445512,28.0,"Black",English,,Furzedown,,0.125,0.875,1.0,core_10_table
+147,464011,20.0,"Black",,,,,0.4,0.525,0.925,core_10_table
+148,464172,40.0,"White",,,,,0.5,0.5,1.0,core_10_table
+149,464143,35.0,"Black",English,,,,0.5,0.5,1.0,core_10_table
+150,365675,34.0,"White",English,No,,,0.3999999999999999,0.6000000000000001,1.0,core_10_table
+151,445698,33.0,"White",English,No,Brixton Hill,7.0,0.0357142857142857,0.125,0.1607142857142857,swemwebs_table
+152,445667,32.0,"White",Spanish,No,Coldharbour,6.0,0.0,0.1071428571428571,0.1071428571428571,swemwebs_table
+153,445677,32.0,"White",English,No,Coldharbour,6.0,-0.035714285714285754,0.25,0.21428571428571425,swemwebs_table
+154,398735,36.0,"White",Other,,Coldharbour,1.0,-0.0357142857142857,0.1607142857142857,0.125,swemwebs_table
+155,445768,39.0,"Mixed",English,No,Coldharbour,1.0,0.0714285714285714,0.25,0.3214285714285714,swemwebs_table
+156,366132,39.0,"White",Other,,Coldharbour,1.0,0.0357142857142857,0.1607142857142857,0.1964285714285714,swemwebs_table
+157,445739,36.0,"Other",Other,No,Coldharbour,2.0,-0.01785714285714285,0.2321428571428571,0.21428571428571425,swemwebs_table
+158,445570,21.0,"White",English,No,Coldharbour,2.0,0.0,0.1964285714285714,0.1964285714285714,swemwebs_table
+159,445626,29.0,"Black",English,No,Coldharbour,1.0,-0.035714285714285754,0.14285714285714285,0.1071428571428571,swemwebs_table
+160,378851,26.0,"White",Other,,Coldharbour,1.0,0.0714285714285714,0.1964285714285714,0.2678571428571428,swemwebs_table
+161,445622,29.0,"Black",French,No,Coldharbour,1.0,0.017857142857142905,0.2321428571428571,0.25,swemwebs_table
+162,445673,32.0,"White",English,No,Coldharbour,5.0,0.1071428571428571,0.125,0.2321428571428571,swemwebs_table
+163,445594,26.0,"White",Spanish,No,Coldharbour,5.0,0.16071428571428575,0.08928571428571425,0.25,swemwebs_table
+164,445736,36.0,"White",English,No,Coldharbour,5.0,-0.0535714285714286,0.2857142857142857,0.2321428571428571,swemwebs_table
+165,445585,25.0,"Other",Spanish,No,Coldharbour,2.0,0.0,0.05357142857142855,0.05357142857142855,swemwebs_table
+166,445789,50.0,"Black",English,No,Coldharbour,2.0,0.05357142857142855,0.05357142857142855,0.1071428571428571,swemwebs_table
+167,445616,28.0,"White",English,No,Coldharbour,1.0,0.07142857142857145,0.17857142857142855,0.25,swemwebs_table
+168,445581,24.0,"Other",English,No,Coldharbour,1.0,-0.0535714285714286,0.1607142857142857,0.1071428571428571,swemwebs_table
+169,445628,30.0,"Black",Amharic,No,Coldharbour,1.0,0.0357142857142857,0.14285714285714285,0.17857142857142855,swemwebs_table
+170,445684,33.0,"White",English,No,Oval,4.0,0.0714285714285714,0.125,0.1964285714285714,swemwebs_table
+171,445745,37.0,"White",Spanish,No,Prince's,4.0,0.10714285714285715,0.14285714285714285,0.25,swemwebs_table
+172,387465,31.0,"White",Other,,Stockwell,3.0,0.035714285714285754,0.21428571428571425,0.25,swemwebs_table
+173,445735,36.0,"Black",English,No,Stockwell,3.0,0.01785714285714285,0.125,0.14285714285714285,swemwebs_table
+174,445716,35.0,"White",French,No,Stockwell,3.0,0.05357142857142855,0.05357142857142855,0.1071428571428571,swemwebs_table
+175,445762,39.0,"White",English,No,Stockwell,5.0,0.07142857142857145,0.1071428571428571,0.17857142857142855,swemwebs_table
+176,445634,30.0,"White",English,No,Stockwell,8.0,-0.0892857142857143,0.3214285714285714,0.2321428571428571,swemwebs_table
+177,445718,35.0,"White",Italian,No,Stockwell,8.0,-0.0357142857142857,0.0714285714285714,0.0357142857142857,swemwebs_table
+178,445711,34.0,"White",English,No,Stockwell,8.0,-0.01785714285714285,0.2321428571428571,0.21428571428571425,swemwebs_table
+179,445679,32.0,"Asian",Other,No,Stockwell,4.0,0.0357142857142857,0.2321428571428571,0.2678571428571428,swemwebs_table
+180,445665,32.0,"Mixed",English,No,Stockwell,4.0,-0.01785714285714285,0.2321428571428571,0.21428571428571425,swemwebs_table
+181,445607,28.0,"White",French,No,Stockwell,4.0,0.0,0.2678571428571428,0.2678571428571428,swemwebs_table
+182,445733,36.0,"White",English,No,Stockwell,4.0,0.05357142857142855,0.05357142857142855,0.1071428571428571,swemwebs_table
+183,445577,23.0,"Black",English,,Stockwell,4.0,0.0357142857142857,0.17857142857142855,0.21428571428571425,swemwebs_table
+184,400660,37.0,"White",Other,,Stockwell,4.0,-0.08928571428571425,0.2321428571428571,0.14285714285714285,swemwebs_table
+185,445605,28.0,"Asian",Other,No,Stockwell,5.0,-0.0357142857142857,0.1964285714285714,0.1607142857142857,swemwebs_table
+186,445647,30.0,"Other",English,No,Stockwell,2.0,0.0,0.14285714285714285,0.14285714285714285,swemwebs_table
+187,445719,36.0,"White",Polish,No,Tulse Hill,5.0,0.0,0.1964285714285714,0.1964285714285714,swemwebs_table
+188,445697,33.0,"White",English,No,Tulse Hill,5.0,0.05357142857142855,0.17857142857142855,0.2321428571428571,swemwebs_table
+189,378201,26.0,"White",Other,,Tulse Hill,3.0,0.01785714285714285,0.17857142857142855,0.1964285714285714,swemwebs_table
+190,445713,34.0,"White",English,No,Tulse Hill,3.0,0.0357142857142857,0.1607142857142857,0.1964285714285714,swemwebs_table
+191,383233,29.0,"White",Other,,Tulse Hill,9.0,-0.01785714285714285,0.14285714285714285,0.125,swemwebs_table
+192,445565,17.0,"Mixed",English,No,Tulse Hill,9.0,0.28571428571428575,0.08928571428571425,0.375,swemwebs_table
+193,445674,32.0,"White",English,No,Tulse Hill,9.0,0.10714285714285715,0.08928571428571425,0.1964285714285714,swemwebs_table
+194,445689,33.0,"White",English,No,Tulse Hill,9.0,0.0,0.1964285714285714,0.1964285714285714,swemwebs_table
+195,445602,27.0,"White",English,No,Tulse Hill,2.0,0.0714285714285714,0.14285714285714285,0.21428571428571425,swemwebs_table
+196,373385,19.0,"Black",Other,,Tulse Hill,2.0,-0.0357142857142857,0.1071428571428571,0.0714285714285714,swemwebs_table
+197,445675,123.0,"Mixed",English,No,Tulse Hill,2.0,0.0,0.1607142857142857,0.1607142857142857,swemwebs_table
+198,445583,25.0,"Black",English,No,Tulse Hill,2.0,0.10714285714285715,0.08928571428571425,0.1964285714285714,swemwebs_table
+199,445699,33.0,"Black",English,No,Tulse Hill,2.0,0.1071428571428572,0.2678571428571428,0.375,swemwebs_table
+200,445766,39.0,"White",German,No,Tulse Hill,5.0,0.0535714285714286,0.3214285714285714,0.375,swemwebs_table
+201,383204,29.0,"White",Other,,Tulse Hill,5.0,0.0,0.1964285714285714,0.1964285714285714,swemwebs_table
+202,445600,27.0,"Black",English,No,Tulse Hill,7.0,0.0535714285714286,0.0714285714285714,0.125,swemwebs_table
+203,445744,37.0,"Asian",Vietnamese,No,Tulse Hill,7.0,0.0,0.1964285714285714,0.1964285714285714,swemwebs_table
+204,445778,41.0,"Black",Yoruba,No,Tulse Hill,3.0,0.01785714285714285,0.1607142857142857,0.17857142857142855,swemwebs_table
+205,445598,27.0,"Black",French,No,Vassall,2.0,0.0535714285714286,0.2321428571428571,0.2857142857142857,swemwebs_table
+206,400703,37.0,"White",Other,,Vassall,2.0,0.0892857142857143,0.08928571428571425,0.17857142857142855,swemwebs_table
+207,368504,43.0,"White",Other,,Vassall,5.0,0.0357142857142857,0.2321428571428571,0.2678571428571428,swemwebs_table
+208,445782,41.0,"White",English,No,Vassall,4.0,-0.0357142857142857,0.21428571428571425,0.17857142857142855,swemwebs_table
+209,392161,33.0,"White",Other,,Vassall,4.0,0.07142857142857145,0.08928571428571425,0.1607142857142857,swemwebs_table
+210,384982,30.0,"White",Other,,Vassall,2.0,-0.01785714285714285,0.1964285714285714,0.17857142857142855,swemwebs_table
+211,395786,35.0,"Black",Other,,Vassall,5.0,-0.0357142857142857,0.1964285714285714,0.1607142857142857,swemwebs_table
+212,445595,26.0,"Other",Spanish,No,Vassall,5.0,0.5,-0.125,0.375,swemwebs_table
+213,365623,33.0,"White",English,No,Vassall,8.0,0.0357142857142857,0.1607142857142857,0.1964285714285714,swemwebs_table
+214,445755,38.0,"White",Italian,No,Vassall,8.0,0.0535714285714286,0.08928571428571425,0.14285714285714285,swemwebs_table
+215,445671,32.0,"White",English,,Vassall,8.0,0.0892857142857143,0.2321428571428571,0.3214285714285714,swemwebs_table
+216,379223,27.0,"Asian",Other,,Vassall,2.0,-0.035714285714285754,0.14285714285714285,0.1071428571428571,swemwebs_table
+217,445731,36.0,"White",English,No,Vassall,2.0,0.0892857142857143,0.2857142857142857,0.375,swemwebs_table
+218,445584,25.0,"Black",English,No,Vassall,1.0,0.1964285714285714,0.0357142857142857,0.2321428571428571,swemwebs_table
+219,445708,34.0,"White",English,No,Vassall,1.0,0.05357142857142855,0.1607142857142857,0.21428571428571425,swemwebs_table
+220,445710,34.0,"Black",English,No,,,-0.01785714285714285,0.14285714285714285,0.125,swemwebs_table
+221,445640,30.0,"White",English,,,,0.08928571428571425,0.125,0.21428571428571425,swemwebs_table
+222,445603,27.0,"White",English,No,Coldharbour,6.0,-0.0357142857142857,0.1964285714285714,0.1607142857142857,swemwebs_table
+223,445658,31.0,"Black",English,No,Coldharbour,1.0,0.01785714285714285,0.14285714285714285,0.1607142857142857,swemwebs_table
+224,445629,31.0,"Black",English,No,Coldharbour,2.0,0.1785714285714286,0.1964285714285714,0.375,swemwebs_table
+225,445649,32.0,"Black",English,No,Coldharbour,1.0,0.1428571428571429,0.2321428571428571,0.375,swemwebs_table
+226,445786,45.0,"White",English,,Coldharbour,1.0,0.1785714285714286,0.1964285714285714,0.375,swemwebs_table
+227,445572,22.0,"Black",English,No,Coldharbour,1.0,0.28571428571428575,0.08928571428571425,0.375,swemwebs_table
+228,445751,37.0,"White",English,No,Coldharbour,5.0,-0.01785714285714285,0.14285714285714285,0.125,swemwebs_table
+229,445784,41.0,"White",English,No,Coldharbour,5.0,-0.017857142857142905,0.25,0.2321428571428571,swemwebs_table
+230,445750,37.0,"Asian",English,No,Coldharbour,1.0,0.05357142857142855,0.1607142857142857,0.21428571428571425,swemwebs_table
+231,445660,31.0,"White",English,No,Stockwell,5.0,0.035714285714285754,0.1071428571428571,0.14285714285714285,swemwebs_table
+232,445681,33.0,"Black",English,No,Stockwell,8.0,0.05357142857142855,0.125,0.17857142857142855,swemwebs_table
+233,392435,33.0,"White",Other,,Stockwell,4.0,-0.125,0.21428571428571425,0.08928571428571425,swemwebs_table
+234,445579,24.0,"Black",Other,No,Stockwell,4.0,0.1964285714285714,0.0,0.1964285714285714,swemwebs_table
+235,445690,33.0,"White",English,No,Stockwell,5.0,0.0357142857142857,0.17857142857142855,0.21428571428571425,swemwebs_table
+236,445645,30.0,"White",English,No,Stockwell,6.0,0.07142857142857145,0.1071428571428571,0.17857142857142855,swemwebs_table
+237,445446,26.0,"White",Other,,Streatham Hill,8.0,-0.01785714285714285,0.17857142857142855,0.1607142857142857,swemwebs_table
+238,445490,47.0,"Black",Akan/Twi-Fante,,Tulse Hill,3.0,-0.01785714285714285,0.17857142857142855,0.1607142857142857,swemwebs_table
+239,445643,30.0,"White",English,No,Tulse Hill,9.0,-0.08928571428571425,0.21428571428571425,0.125,swemwebs_table
+240,445692,33.0,"Asian",English,No,Tulse Hill,9.0,0.0,0.2321428571428571,0.2321428571428571,swemwebs_table
+241,445724,35.0,"White",English,No,Tulse Hill,9.0,0.01785714285714285,0.125,0.14285714285714285,swemwebs_table
+242,445642,31.0,"White",English,No,Tulse Hill,2.0,-0.01785714285714285,0.1607142857142857,0.14285714285714285,swemwebs_table
+243,445729,35.0,"Other",English,,Tulse Hill,2.0,-0.0357142857142857,0.08928571428571425,0.05357142857142855,swemwebs_table
+244,445727,35.0,"White",English,No,Tulse Hill,5.0,-0.01785714285714285,0.08928571428571425,0.0714285714285714,swemwebs_table
+245,445641,30.0,"White",English,No,Tulse Hill,5.0,0.07142857142857145,0.0714285714285714,0.14285714285714285,swemwebs_table
+246,445508,26.0,"Black",English,,Vassall,2.0,0.0,0.2321428571428571,0.2321428571428571,swemwebs_table
+247,445732,36.0,"White",English,No,Vassall,2.0,0.017857142857142794,0.25,0.2678571428571428,swemwebs_table
+248,445715,35.0,"Black",English,No,Vassall,8.0,-0.07142857142857145,0.125,0.05357142857142855,swemwebs_table
+249,445672,32.0,"White",English,No,Vassall,2.0,0.1071428571428571,0.1607142857142857,0.2678571428571428,swemwebs_table
+250,445648,31.0,"Asian",English,No,Vassall,2.0,0.035714285714285754,0.08928571428571425,0.125,swemwebs_table
+251,388543,32.0,"White",Other,,Vassall,2.0,-0.01785714285714285,0.1607142857142857,0.14285714285714285,swemwebs_table
+252,445771,39.0,"White",English,No,Vassall,2.0,0.0,0.1964285714285714,0.1964285714285714,swemwebs_table
+253,445676,31.0,"White",English,No,Vassall,2.0,-0.0357142857142857,0.21428571428571425,0.17857142857142855,swemwebs_table
+254,386761,31.0,"Mixed",Other,,Vassall,1.0,0.0,0.2321428571428571,0.2321428571428571,swemwebs_table
+255,445644,30.0,"Black",English,No,,,-0.035714285714285754,0.125,0.08928571428571425,swemwebs_table
+256,373977,21.0,"White",Other,,,,0.0,0.2857142857142857,0.2857142857142857,swemwebs_table
+257,445695,33.0,"Black",English,No,,,0.01785714285714285,0.1607142857142857,0.17857142857142855,swemwebs_table
+258,445767,40.0,"White",English,No,,,0.07142857142857145,0.1071428571428571,0.17857142857142855,swemwebs_table
+259,445743,37.0,"Black",English,No,,,0.1071428571428572,0.2678571428571428,0.375,swemwebs_table
+260,445756,38.0,"White",English,No,Vassall,2.0,0.14285714285714285,0.08928571428571425,0.2321428571428571,swemwebs_table
+261,445698,33.0,"White",English,No,Brixton Hill,7.0,0.0,0.5,0.5,whooley_table
+262,445667,32.0,"White",Spanish,No,Coldharbour,6.0,0.0,0.0,0.0,whooley_table
+263,445677,32.0,"White",English,No,Coldharbour,6.0,0.0,0.0,0.0,whooley_table
+264,398735,36.0,"White",Other,,Coldharbour,1.0,0.0,0.0,0.0,whooley_table
+265,366132,39.0,"White",Other,,Coldharbour,1.0,0.0,0.0,0.0,whooley_table
+266,445768,39.0,"Mixed",English,No,Coldharbour,1.0,-0.5,0.5,0.0,whooley_table
+267,445570,21.0,"White",English,No,Coldharbour,2.0,0.0,0.0,0.0,whooley_table
+268,445739,36.0,"Other",Other,No,Coldharbour,2.0,0.0,0.0,0.0,whooley_table
+269,445626,29.0,"Black",English,No,Coldharbour,1.0,0.0,0.0,0.0,whooley_table
+270,445622,29.0,"Black",French,No,Coldharbour,1.0,0.0,0.0,0.0,whooley_table
+271,378851,26.0,"White",Other,,Coldharbour,1.0,0.0,0.0,0.0,whooley_table
+272,445736,36.0,"White",English,No,Coldharbour,5.0,0.0,0.0,0.0,whooley_table
+273,445673,32.0,"White",English,No,Coldharbour,5.0,0.0,0.0,0.0,whooley_table
+274,445594,26.0,"White",Spanish,No,Coldharbour,5.0,0.0,0.0,0.0,whooley_table
+275,445585,25.0,"Other",Spanish,No,Coldharbour,2.0,-0.5,0.5,0.0,whooley_table
+276,445789,50.0,"Black",English,No,Coldharbour,2.0,0.0,0.0,0.0,whooley_table
+277,445616,28.0,"White",English,No,Coldharbour,1.0,0.0,0.0,0.0,whooley_table
+278,445628,30.0,"Black",Amharic,No,Coldharbour,1.0,0.0,0.0,0.0,whooley_table
+279,445581,24.0,"Other",English,No,Coldharbour,1.0,0.5,0.0,0.5,whooley_table
+280,445684,33.0,"White",English,No,Oval,4.0,0.0,0.0,0.0,whooley_table
+281,445745,37.0,"White",Spanish,No,Prince's,4.0,0.0,0.0,0.0,whooley_table
+282,445716,35.0,"White",French,No,Stockwell,3.0,-0.5,0.5,0.0,whooley_table
+283,387465,31.0,"White",Other,,Stockwell,3.0,0.0,0.0,0.0,whooley_table
+284,445735,36.0,"Black",English,No,Stockwell,3.0,-0.5,0.5,0.0,whooley_table
+285,445762,39.0,"White",English,No,Stockwell,5.0,0.0,0.0,0.0,whooley_table
+286,445718,35.0,"White",Italian,No,Stockwell,8.0,0.5,0.0,0.5,whooley_table
+287,445634,30.0,"White",English,No,Stockwell,8.0,0.0,0.0,0.0,whooley_table
+288,445711,34.0,"White",English,No,Stockwell,8.0,0.0,0.0,0.0,whooley_table
+289,445665,32.0,"Mixed",English,No,Stockwell,4.0,0.0,0.0,0.0,whooley_table
+290,445679,32.0,"Asian",Other,No,Stockwell,4.0,0.0,0.0,0.0,whooley_table
+291,445733,36.0,"White",English,No,Stockwell,4.0,-0.5,0.5,0.0,whooley_table
+292,445607,28.0,"White",French,No,Stockwell,4.0,0.0,0.0,0.0,whooley_table
+293,445577,23.0,"Black",English,,Stockwell,4.0,0.0,0.0,0.0,whooley_table
+294,400660,37.0,"White",Other,,Stockwell,4.0,0.0,0.0,0.0,whooley_table
+295,445605,28.0,"Asian",Other,No,Stockwell,5.0,0.0,0.0,0.0,whooley_table
+296,445647,30.0,"Other",English,No,Stockwell,2.0,0.0,0.0,0.0,whooley_table
+297,445719,36.0,"White",Polish,No,Tulse Hill,5.0,0.0,0.0,0.0,whooley_table
+298,445697,33.0,"White",English,No,Tulse Hill,5.0,0.0,0.0,0.0,whooley_table
+299,445713,34.0,"White",English,No,Tulse Hill,3.0,0.0,0.0,0.0,whooley_table
+300,378201,26.0,"White",Other,,Tulse Hill,3.0,0.0,0.0,0.0,whooley_table
+301,383233,29.0,"White",Other,,Tulse Hill,9.0,0.0,0.0,0.0,whooley_table
+302,445565,17.0,"Mixed",English,No,Tulse Hill,9.0,0.0,0.0,0.0,whooley_table
+303,445689,33.0,"White",English,No,Tulse Hill,9.0,0.0,0.0,0.0,whooley_table
+304,445674,32.0,"White",English,No,Tulse Hill,9.0,-0.5,0.5,0.0,whooley_table
+305,373385,19.0,"Black",Other,,Tulse Hill,2.0,0.5,0.0,0.5,whooley_table
+306,445602,27.0,"White",English,No,Tulse Hill,2.0,0.0,0.0,0.0,whooley_table
+307,445675,123.0,"Mixed",English,No,Tulse Hill,2.0,0.0,0.0,0.0,whooley_table
+308,445699,33.0,"Black",English,No,Tulse Hill,2.0,0.0,0.0,0.0,whooley_table
+309,445583,25.0,"Black",English,No,Tulse Hill,2.0,0.0,0.0,0.0,whooley_table
+310,383204,29.0,"White",Other,,Tulse Hill,5.0,0.0,0.0,0.0,whooley_table
+311,445766,39.0,"White",German,No,Tulse Hill,5.0,0.0,0.0,0.0,whooley_table
+312,445744,37.0,"Asian",Vietnamese,No,Tulse Hill,7.0,0.0,0.0,0.0,whooley_table
+313,445600,27.0,"Black",English,No,Tulse Hill,7.0,0.0,0.0,0.0,whooley_table
+314,445778,41.0,"Black",Yoruba,No,Tulse Hill,3.0,0.0,0.0,0.0,whooley_table
+315,400703,37.0,"White",Other,,Vassall,2.0,0.0,0.0,0.0,whooley_table
+316,445598,27.0,"Black",French,No,Vassall,2.0,0.0,0.0,0.0,whooley_table
+317,368504,43.0,"White",Other,,Vassall,5.0,0.0,0.0,0.0,whooley_table
+318,445782,41.0,"White",English,No,Vassall,4.0,0.0,0.0,0.0,whooley_table
+319,392161,33.0,"White",Other,,Vassall,4.0,0.0,0.0,0.0,whooley_table
+320,384982,30.0,"White",Other,,Vassall,2.0,0.0,0.0,0.0,whooley_table
+321,445595,26.0,"Other",Spanish,No,Vassall,5.0,0.0,0.0,0.0,whooley_table
+322,395786,35.0,"Black",Other,,Vassall,5.0,0.0,0.0,0.0,whooley_table
+323,445755,38.0,"White",Italian,No,Vassall,8.0,-0.5,0.5,0.0,whooley_table
+324,445671,32.0,"White",English,,Vassall,8.0,0.0,0.0,0.0,whooley_table
+325,365623,33.0,"White",English,No,Vassall,8.0,0.0,0.0,0.0,whooley_table
+326,445731,36.0,"White",English,No,Vassall,2.0,0.0,0.0,0.0,whooley_table
+327,379223,27.0,"Asian",Other,,Vassall,2.0,0.0,0.0,0.0,whooley_table
+328,445584,25.0,"Black",English,No,Vassall,1.0,-0.5,0.5,0.0,whooley_table
+329,445708,34.0,"White",English,No,Vassall,1.0,0.0,0.0,0.0,whooley_table
+330,445710,34.0,"Black",English,No,,,0.0,0.0,0.0,whooley_table
+331,445640,30.0,"White",English,,,,-0.5,0.5,0.0,whooley_table
+332,445603,27.0,"White",English,No,Coldharbour,6.0,0.0,0.0,0.0,whooley_table
+333,445658,31.0,"Black",English,No,Coldharbour,1.0,0.0,0.0,0.0,whooley_table
+334,445629,31.0,"Black",English,No,Coldharbour,2.0,0.0,0.0,0.0,whooley_table
+335,445649,32.0,"Black",English,No,Coldharbour,1.0,0.5,0.0,0.5,whooley_table
+336,445786,45.0,"White",English,,Coldharbour,1.0,0.0,0.0,0.0,whooley_table
+337,445572,22.0,"Black",English,No,Coldharbour,1.0,-0.5,0.5,0.0,whooley_table
+338,445784,41.0,"White",English,No,Coldharbour,5.0,0.0,0.0,0.0,whooley_table
+339,445751,37.0,"White",English,No,Coldharbour,5.0,0.0,0.0,0.0,whooley_table
+340,445750,37.0,"Asian",English,No,Coldharbour,1.0,0.0,0.0,0.0,whooley_table
+341,445660,31.0,"White",English,No,Stockwell,5.0,0.0,0.5,0.5,whooley_table
+342,445681,33.0,"Black",English,No,Stockwell,8.0,0.0,0.0,0.0,whooley_table
+343,392435,33.0,"White",Other,,Stockwell,4.0,0.5,0.0,0.5,whooley_table
+344,445579,24.0,"Black",Other,No,Stockwell,4.0,0.0,0.0,0.0,whooley_table
+345,445690,33.0,"White",English,No,Stockwell,5.0,0.0,0.0,0.0,whooley_table
+346,445645,30.0,"White",English,No,Stockwell,6.0,-0.5,0.5,0.0,whooley_table
+347,445446,26.0,"White",Other,,Streatham Hill,8.0,0.0,0.0,0.0,whooley_table
+348,445490,47.0,"Black",Akan/Twi-Fante,,Tulse Hill,3.0,-0.5,0.5,0.0,whooley_table
+349,445692,33.0,"Asian",English,No,Tulse Hill,9.0,0.0,0.0,0.0,whooley_table
+350,445643,30.0,"White",English,No,Tulse Hill,9.0,0.0,0.0,0.0,whooley_table
+351,445724,35.0,"White",English,No,Tulse Hill,9.0,0.0,0.0,0.0,whooley_table
+352,445642,31.0,"White",English,No,Tulse Hill,2.0,0.5,0.0,0.5,whooley_table
+353,445729,35.0,"Other",English,,Tulse Hill,2.0,0.0,0.5,0.5,whooley_table
+354,445727,35.0,"White",English,No,Tulse Hill,5.0,0.5,0.0,0.5,whooley_table
+355,445641,30.0,"White",English,No,Tulse Hill,5.0,-0.5,0.5,0.0,whooley_table
+356,445732,36.0,"White",English,No,Vassall,2.0,0.0,0.0,0.0,whooley_table
+357,445508,26.0,"Black",English,,Vassall,2.0,0.0,0.0,0.0,whooley_table
+358,445715,35.0,"Black",English,No,Vassall,8.0,0.0,0.0,0.0,whooley_table
+359,445672,32.0,"White",English,No,Vassall,2.0,0.0,0.0,0.0,whooley_table
+360,445676,31.0,"White",English,No,Vassall,2.0,0.0,0.0,0.0,whooley_table
+361,445771,39.0,"White",English,No,Vassall,2.0,0.0,0.0,0.0,whooley_table
+362,388543,32.0,"White",Other,,Vassall,2.0,0.0,0.0,0.0,whooley_table
+363,445648,31.0,"Asian",English,No,Vassall,2.0,0.0,0.0,0.0,whooley_table
+364,386761,31.0,"Mixed",Other,,Vassall,1.0,0.0,0.0,0.0,whooley_table
+365,373977,21.0,"White",Other,,,,0.0,0.0,0.0,whooley_table
+366,445767,40.0,"White",English,No,,,-0.5,0.5,0.0,whooley_table
+367,445743,37.0,"Black",English,No,,,0.0,0.0,0.0,whooley_table
+368,445644,30.0,"Black",English,No,,,0.0,0.0,0.0,whooley_table
+369,445695,33.0,"Black",English,No,,,0.0,0.0,0.0,whooley_table
+370,445756,38.0,"White",English,No,Vassall,2.0,0.5,0.0,0.5,whooley_table

@@ -14,7 +14,7 @@ from helper_functions import (
 from subfunctions.sub_func_remove_cols_by_pattern import remove_cols_by_pattern
 from subfunctions.sub_func_transform_column_values import transform_column_values
 
-def process_swemwebs(df_orig: pd.DataFrame) -> dict:
+def process_pai(df_orig: pd.DataFrame) -> dict:
     df_orig_copy = df_orig.copy()
 
     # Remove columns with names of pattern "question_"
@@ -32,6 +32,7 @@ def process_swemwebs(df_orig: pd.DataFrame) -> dict:
     # Parse 0 and 1s into booleans
     column_names = [
         "bab_reached_dosage_yn",
+        "user_has_pre_and_post"
     ]
 
     df_parsed_bools = transform_column_values(df_parsed_dates,column_names,
@@ -57,7 +58,6 @@ def process_swemwebs(df_orig: pd.DataFrame) -> dict:
     # Change column datatype from float to integer
     integer_cols = [
         "age_at_registration",
-        "total_raw",
         "total",
         "total_final",
     ]
